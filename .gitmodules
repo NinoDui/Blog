@@ -1,3 +1,6 @@
 [submodule "themes/er"]
 	path = themes/er
 	url = git@github.com:NinoDui/er.git
+[submodule "public"]
+	path = public
+	url = git@github.com:NinoDui/NinoDui.github.io.git
