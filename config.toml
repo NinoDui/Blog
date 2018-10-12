@@ -2,3 +2,20 @@ baseURL = "https://NinoDui.github.io"
 languageCode = "en-us"
 title = "What we talk about when we talk about NinoDui" 
 theme = "er"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "POST"
+    url = "/post/"
+    weight = 2
+  [[menu.main]]
+    identifier = "gallery"
+    name = "GALLERY"
+    url = "/gallery/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "ABOUT"
+    url = "/about/"
+    weight = 4
