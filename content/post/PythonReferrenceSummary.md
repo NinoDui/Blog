@@ -92,6 +92,9 @@ Out[31]: 4569862664
 In [32]: c
 Out[32]: [0, 1, 2, 3, 4]
 ```
+Special attention: `String` is immutable, so given `s` is a `String`
+- `s[:] = s[::-1]` is not acceptable.
+- `reversed(s)` is not acceptable.
 
 ### Multiple Dimensional List
 
